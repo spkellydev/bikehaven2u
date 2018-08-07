@@ -1,0 +1,38 @@
+// Variables
+@import "variables";
+@import "mixins";
+
+// Bootstrap
+@import "bootstrap";
+
+body {
+  font-family: "Nunito", sans-serif;
+  font-size: 1.25rem;
+}
+h1 {
+  @include heading-1;
+  font-weight: 900;
+}
+h2 {
+  @include heading-2;
+}
+h3 {
+  @include heading-3;
+}
+h4 {
+  @include heading-4;
+}
+
+.trim-background-color {
+  background: $white;
+}
+
+nav.navbar {
+  background: $red;
+
+  #primary-menu {
+    a {
+      color: $white;
+    }
+  }
+}
