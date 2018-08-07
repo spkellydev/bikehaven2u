@@ -4,7 +4,7 @@
 
 @section('service')
 
-<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+<div id="service-carousel" class="carousel slide carousel-fade" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
       {{ the_post_thumbnail('full', [ 'class' => 'img-fluid d-block w-100']) }}      

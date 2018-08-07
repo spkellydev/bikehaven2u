@@ -6971,6 +6971,29 @@ h4 {
   h4 a {
     color: #292727; }
 
+@media screen and (max-width: 1175px) {
+  p {
+    font-size: 0.8em; } }
+
+@media screen and (max-width: 960px) {
+  p {
+    font-size: 0.718em; } }
+
+@media screen and (max-width: 600px) {
+  p {
+    font-size: 0.618em; } }
+
+#service-carousel img {
+  max-height: 100vh; }
+
+@media screen and (max-width: 960px) {
+  #service-carousel {
+    margin-top: 3rem; } }
+
+@media screen and (max-width: 600px) {
+  #service-carousel {
+    margin-top: 3rem; } }
+
 .trim-background-color {
   background: whitesmoke; }
 

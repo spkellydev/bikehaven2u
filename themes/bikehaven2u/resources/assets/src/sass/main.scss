@@ -23,6 +23,31 @@ h4 {
   @include heading-4;
 }
 
+p {
+  @include screen(med) {
+    font-size: 0.8em;
+  }
+  @include screen(med-small) {
+    font-size: 0.718em;
+  }
+  @include screen(small) {
+    font-size: 0.618em;
+  }
+}
+
+#service-carousel {
+  img {
+    max-height: 100vh;
+  }
+
+  @include screen(med-small) {
+    margin-top: 3rem;
+  }
+  @include screen(small) {
+    margin-top: 3rem;
+  }
+}
+
 .trim-background-color {
   background: $white;
 }
